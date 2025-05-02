@@ -96,17 +96,29 @@
 .about-us {
   display: flex;
   justify-content: center;
+  align-items: flex-start;
+  gap: 36px;
+  padding: 48px;
 
   & .content {
     width: 50%;
+    
+    & .button{
+        width: fit-content;
+    }
   }
 
   & .images {
     width: 50%;
+    & p{
+        margin-bottom: 24px;
+    }
+  
 
     & img{
         width: 100%;
         height: 100%;
+        object-fit: cover;
     }
   }
 }
