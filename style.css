@@ -125,6 +125,7 @@
 
 .Cores {
     h2 {
+        font-size: 40px;
     text-align: center;
     color: var(--primary-color);
 
