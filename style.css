@@ -89,3 +89,16 @@
 
     }
 }
+
+.partners {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 24px;
+    
+    & img {
+        height: 100px;
+        width: 200px;
+        object-fit: contain;
+    }
+}
