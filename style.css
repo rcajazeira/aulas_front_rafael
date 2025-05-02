@@ -124,12 +124,39 @@
 }
 
 .Cores {
-    display: flex;
-    align-items: center;
+    h2 {
+    text-align: center;
+    color: var(--primary-color);
+
+    }
 
 }
 
 .grids {
+    
+    padding: 48px;
+    align-items: flex-start;
+    justify-content: center;
     display: grid;
+    grid-template-columns: repeat(2, 1fr); /* 4 colunas iguais */
+   grid-template-rows: repeat(2, auto);   /* 2 linhas com altura automática */
+   gap: 50px; /* espaço entre os itens, opcional */
+
+   & i {
+    color: var(--primary-color);
+    align-items: flex-start;
+    justify-content: center;
+    padding: 20px;
+    padding-left: 200px;
+    font-size: 65px;
+   }
+
+    & .button{
+        align-items: flex-start;
+        
+        width: fit-content;
+    }
+   
+   
 }
 
